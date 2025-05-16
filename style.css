@@ -1,0 +1,43 @@
+body {
+  background-color: #0f0f0f;
+  color: #f44336;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  width: 320px;
+  height: 480px;
+  border-radius: 12px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  color: #f44336;
+  text-align: center;
+}
+textarea, select {
+  width: 100%;
+  padding: 10px;
+  background: #1c1c1c;
+  color: #fff;
+  border: 1px solid #f44336;
+  border-radius: 8px;
+}
+button {
+  padding: 10px;
+  background: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#result {
+  background: #1e1e1e;
+  color: #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 140px;
+  white-space: pre-wrap;
+}
